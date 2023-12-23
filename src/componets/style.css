@@ -1,0 +1,18 @@
+.MenuBarra{
+    animation-name: aparicion;
+    animation-duration: 1s;
+    animation-fill-mode:both;
+    animation-iteration-count: inherit;
+}
+@keyframes aparicion {
+    0%{
+        width: 0%;
+        background-color: rgba(20, 20, 20, 0.292);
+        color: rgba(20, 20, 20, 0.292);
+    }
+    100%{
+        width: 35%;
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+    }
+}
